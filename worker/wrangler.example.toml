@@ -1,0 +1,21 @@
+# Cloudflare Worker 配置示例
+# 用法：复制为 wrangler.toml 后部署：
+#   cp wrangler.example.toml wrangler.toml
+#   wrangler deploy
+#
+# 敏感变量（API_KEY / MIMO_API_KEY / MIMO_BASE_URL）不要写进本文件，
+# 用 wrangler secret 设置（deploy 后保留，不随代码覆盖）：
+#   npx wrangler secret put API_KEY        # Worker 自身鉴权（= Reeden 配置里的 {{WORKER_TOKEN}}）
+#   npx wrangler secret put MIMO_API_KEY   # MiMo key：sk- 按量 / tp- Token Plan
+#   npx wrangler secret put MIMO_BASE_URL  # 可选，默认 https://api.xiaomimimo.com/v1
+
+name = "mimo-tts"
+main = "mimo-tts-worker.js"
+compatibility_date = "2026-09-01"
+
+# 非敏感变量可放这里（本 worker 暂未使用）
+# [vars]
+# MY_VAR = "value"
+
+[observability]
+enabled = true
