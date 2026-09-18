@@ -1,0 +1,1283 @@
+[
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-温柔御姐",
+  "voice": "wenrou_yujie",
+  "sex": 0,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "温柔御姐"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"wenrou_yujie\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-磁性大叔",
+  "voice": "cining_dashu",
+  "sex": 1,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "磁性大叔"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"cining_dashu\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-清甜少女",
+  "voice": "qingtian_shaonv",
+  "sex": 0,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "清甜少女"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"qingtian_shaonv\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-沉稳儒雅男",
+  "voice": "zhiyong_shenchen",
+  "sex": 1,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "沉稳儒雅男"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"zhiyong_shenchen\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-慈爱奶奶",
+  "voice": "naixing_aiyi",
+  "sex": 0,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "慈爱奶奶"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"naixing_aiyi\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-阳光少年",
+  "voice": "zhengneng_liang",
+  "sex": 1,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "阳光少年"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"zhengneng_liang\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-高冷冰蝉",
+  "voice": "gaoleng_bingchan",
+  "sex": 0,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "高冷冰蝉"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"gaoleng_bingchan\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-豪爽大汉",
+  "voice": "haoshuang_dahan",
+  "sex": 1,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "豪爽大汉"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"haoshuang_dahan\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-高贵御姐",
+  "voice": "gaogui_yugui",
+  "sex": 0,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "高贵御姐"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"gaogui_yugui\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-温润少帅",
+  "voice": "lianai_shaoshuai",
+  "sex": 1,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "温润少帅"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"lianai_shaoshuai\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-知性小白",
+  "voice": "zhipiao_xiaoshu",
+  "sex": 0,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "知性小白"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"zhipiao_xiaoshu\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-逗趣活宝",
+  "voice": "douqu_huojie",
+  "sex": 0,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "逗趣活宝"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"douqu_huojie\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-妖娆妖女",
+  "voice": "yinhua_yaoshu",
+  "sex": 0,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "妖娆妖女"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"yinhua_yaoshu\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-精英总裁",
+  "voice": "zhengpai_jingying",
+  "sex": 1,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "精英总裁"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"zhengpai_jingying\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-软糯小仙女",
+  "voice": "niangpao_xianwen",
+  "sex": 0,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "软糯小仙女"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"niangpao_xianwen\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-艺术气息男",
+  "voice": "yishu_jixiang",
+  "sex": 1,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "艺术气息男"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"yishu_jixiang\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-书生秀才",
+  "voice": "xiaoyuan_shusheng",
+  "sex": 1,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "书生秀才"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"xiaoyuan_shusheng\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-江湖老江湖",
+  "voice": "laoliao_jiangjie",
+  "sex": 1,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "江湖老江湖"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"laoliao_jiangjie\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-热情姐姐",
+  "voice": "reqing_meimei",
+  "sex": 0,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "热情姐姐"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"reqing_meimei\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-知性电台",
+  "voice": "shensi_zhisheng",
+  "sex": 0,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "知性电台"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"shensi_zhisheng\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-甜美偶像",
+  "voice": "tianmei_meishaonv",
+  "sex": 0,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "甜美偶像"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"tianmei_meishaonv\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-暗夜反派",
+  "voice": "yinyu_dark",
+  "sex": 1,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "暗夜反派"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"yinyu_dark\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-温柔妈妈",
+  "voice": "wanrou_mama",
+  "sex": 0,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "温柔妈妈"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"wanrou_mama\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-冷面军人",
+  "voice": "lenghan_junren",
+  "sex": 1,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "冷面军人"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"lenghan_junren\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-无知小精灵",
+  "voice": "wuzhi_xiaojingling",
+  "sex": 0,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "无知小精灵"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"wuzhi_xiaojingling\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-大师风范",
+  "voice": "dashi_fengfan",
+  "sex": 1,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "大师风范"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"dashi_fengfan\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-大姐大气场",
+  "voice": "dajie_daqi",
+  "sex": 0,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "大姐大气场"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"dajie_daqi\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-先生绅士",
+  "voice": "xiansheng_shishen",
+  "sex": 1,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "先生绅士"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"xiansheng_shishen\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-鬼马小妖",
+  "voice": "guiguai_xiaosha",
+  "sex": 0,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "鬼马小妖"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"guiguai_xiaosha\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-火焰女王",
+  "voice": "duanlian_huoyan",
+  "sex": 0,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "火焰女王"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"duanlian_huoyan\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-宁静智慧",
+  "voice": "ningjing_zhihui",
+  "sex": 0,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "宁静智慧"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"ningjing_zhihui\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-江湖浪子",
+  "voice": "hunjia_linsheng",
+  "sex": 1,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "江湖浪子"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"hunjia_linsheng\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-市井大嫂",
+  "voice": "dizhen_dasao",
+  "sex": 0,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "市井大嫂"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"dizhen_dasao\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-空灵仙姑",
+  "voice": "kongling_xiangu",
+  "sex": 0,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "空灵仙姑"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"kongling_xiangu\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-稳重帝君",
+  "voice": "zhihou_difu",
+  "sex": 1,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "稳重帝君"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"zhihou_difu\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-元气能量",
+  "voice": "yibao_nengliang",
+  "sex": 0,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "元气能量"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"yibao_nengliang\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-古寺僧人",
+  "voice": "gaoseng_pusa",
+  "sex": 1,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "古寺僧人"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"gaoseng_pusa\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-端庄夫人",
+  "voice": "duanzhuang_daren",
+  "sex": 0,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "端庄夫人"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"duanzhuang_daren\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-火星少年",
+  "voice": "huoxing_shaonian",
+  "sex": 1,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "火星少年"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"huoxing_shaonian\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-忧伤文艺女",
+  "voice": "youshang_wenyi",
+  "sex": 0,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "忧伤文艺女"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"youshang_wenyi\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-野心家",
+  "voice": "yexin_jiangu",
+  "sex": 1,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "野心家"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"yexin_jiangu\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-可爱大小姐",
+  "voice": "ketai_xiaojie",
+  "sex": 0,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "可爱大小姐"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"ketai_xiaojie\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-领袖气质",
+  "voice": "zhengzhi_lingxiu",
+  "sex": 1,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "领袖气质"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"zhengzhi_lingxiu\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-乖巧书生女",
+  "voice": "guaiqiao_shufu",
+  "sex": 0,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "乖巧书生女"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"guaiqiao_shufu\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-天真孩童",
+  "voice": "tianzhen_hai",
+  "sex": 0,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "天真孩童"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"tianzhen_hai\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-勇敢战士",
+  "voice": "yonggan_zhanshi",
+  "sex": 1,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "勇敢战士"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"yonggan_zhanshi\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-文静小妹",
+  "voice": "wenjing_xiaomei",
+  "sex": 0,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "文静小妹"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"wenjing_xiaomei\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-好奇老者",
+  "voice": "haoqin_laozhe",
+  "sex": 1,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "好奇老者"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"haoqin_laozhe\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-冰冷君子",
+  "voice": "bingleng_junzi",
+  "sex": 1,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "冰冷君子"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"bingleng_junzi\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-圣洁天使",
+  "voice": "shengjie_tianshi",
+  "sex": 0,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "圣洁天使"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"shengjie_tianshi\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-英朗明星",
+  "voice": "yinglang_mingsxing",
+  "sex": 1,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "英朗明星"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"yinglang_mingsxing\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-沧桑人间",
+  "voice": "canghai_renjian",
+  "sex": 1,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "沧桑人间"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"canghai_renjian\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-伶俐妹子",
+  "voice": "lingli_meizi",
+  "sex": 0,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "伶俐妹子"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"lingli_meizi\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-萌萌小正太",
+  "voice": "mengmeng_xiaozheng",
+  "sex": 1,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "萌萌小正太"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"mengmeng_xiaozheng\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-雅致名姝",
+  "voice": "yazhi_mingzhu",
+  "sex": 0,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "雅致名姝"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"yazhi_mingzhu\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-深沉小说家",
+  "voice": "shenchen_xiaoshuo",
+  "sex": 1,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "深沉小说家"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"shenchen_xiaoshuo\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-活泼主播",
+  "voice": "huopo_zhubo",
+  "sex": 0,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "活泼主播"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"huopo_zhubo\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-清雅养生",
+  "voice": "qingya_yangsheng",
+  "sex": 1,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "清雅养生"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"qingya_yangsheng\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-爽利小姐",
+  "voice": "shuangli_xiaojie",
+  "sex": 0,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "爽利小姐"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"shuangli_xiaojie\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-鬼才精英",
+  "voice": "guiai_jingying",
+  "sex": 1,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "鬼才精英"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"guiai_jingying\"}"
+  }
+ },
+ {
+  "url": "https://mimo-tts.YOUR-DOMAIN.com/v1/audio/speech",
+  "name": "MiMo-亲密旁白",
+  "voice": "qinmi_pangbai",
+  "sex": 0,
+  "locale": "zh-CN",
+  "group": "MiMo 60音色",
+  "tags": [
+   "MiMo TTS",
+   "AI音色",
+   "亲密旁白"
+  ],
+  "params": {
+   "method": "POST",
+   "headers": {
+    "Authorization": "Bearer {{WORKER_TOKEN}}",
+    "Content-Type": "application/json"
+   },
+   "body": "{\"model\": \"mimo-v2.5-tts-voicedesign\", \"input\": \"{{text}}\", \"voice\": \"qinmi_pangbai\"}"
+  }
+ }
+]

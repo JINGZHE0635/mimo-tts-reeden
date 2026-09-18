@@ -1,0 +1,15 @@
+# 环境与密钥
+.env
+*.env
+wrangler.toml
+.wrangler/
+
+# 音频/缓存
+*.mp3
+*.wav
+audio_cache/
+
+# 运行时
+__pycache__/
+*.pyc
+node_modules/
