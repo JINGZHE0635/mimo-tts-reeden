@@ -32,13 +32,25 @@ scripts/mimo-voice.py                         # voicedesign / voiceclone 桥接
 reeden/reeden-tts-mimo-config.example.json    # Reeden 导入配置模板（token 用占位符）
 ```
 
+## 前置条件（你需要准备什么）
+
+| # | 东西 | 去哪拿 | 说明 |
+|---|---|---|---|
+| 1 | **MiMo API Key** | 小米 MiMo 开放平台（`https://www.xiaomimimo.com`） | `sk-` 按量付费 / `tp-` Token Plan 订阅（TTS 限时免费）。模型用 `mimo-v2.5-tts` 系列（V2 已下线） |
+| 2 | **Cloudflare 账号** | `https://dash.cloudflare.com`（免费套餐即可） | 部署 Worker 用；免费额度（10 万请求/天）对个人听书绰绰有余 |
+| 3 | **wrangler CLI** | `npm install -g wrangler`（需 Node.js 18+） | 或直接 `npx wrangler ...`；首次需 `wrangler login` |
+| 4 | **域名（可选）** | 任意域名商，DNS 托管到 Cloudflare | 不买也行：Worker 自带的 `*.workers.dev` 默认域名直接可用；自定义域只需在 Worker 设置里绑定 |
+| 5 | **Reeden App** | 应用商店，**1.27.2+** | 低于此版本不支持自定义 TTS 导入 / 多角色朗读 |
+| 6 | **LLM API（可选）** | 任意 OpenAI 兼容接口（如 DeepSeek） | 仅多角色朗读的"AI 识别"需要；识别任务极小（max_tokens 300），成本可忽略。**注意：识别 API 余额耗尽会降级导致人物错配** |
+
 ## 快速开始
 
 ### 1. 部署 Worker
 
 ```bash
 cd worker
-wrangler deploy
+cp wrangler.example.toml wrangler.toml
+npx wrangler deploy
 ```
 
 Worker 环境变量（`wrangler secret put`）：
